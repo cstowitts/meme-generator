@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-    border: solid 3px blue;
+    /* border: solid 3px blue; */
 }
 
 header {
@@ -56,7 +56,7 @@ main {
     flex-direction: column;
     align-items: center;
 
-    border: solid 3px yellowgreen;
+    /* border: solid 3px yellowgreen; */
 }
 
 form {
@@ -120,7 +120,7 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
 
     padding: 10px;
-    border: solid 3px purple;
+    /* border: solid 3px purple; */
 }
 
 .new-meme-div {
