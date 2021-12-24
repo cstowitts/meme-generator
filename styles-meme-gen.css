@@ -13,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
+
     /* border: solid 3px blue; */
 }
 
@@ -221,4 +222,25 @@ h3.three-lines {
     font-family: 'Bungee Outline', cursive;
     font-size: 100px;
     color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    color: white;
+    
+}
+
+footer > a {
+    text-decoration: none;
+    color: #5a38fd;
 }
