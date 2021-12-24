@@ -138,6 +138,7 @@ input[type="submit"]:hover {
     /* border: solid 3px orange; */
 }
 
+
 .new-meme-content-div {
     width: 300px;
     height: 225px;
@@ -169,6 +170,7 @@ input[type="submit"]:hover {
     /* border: solid 3px red; */
 }
 
+
 h3 {
 
     width: 95%;
@@ -192,4 +194,33 @@ h3.two-lines {
 
 h3.three-lines {
     font-size: 14px;
+}
+
+.overlay {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-meme-div:hover .overlay {
+    transition: .3s ease;
+    background-color: #5a38fd;
+    opacity: .5;
+}
+
+.overlay-x {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 100px;
+    color: white;
+
+    z-index: 100;
 }

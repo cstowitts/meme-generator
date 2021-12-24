@@ -15,15 +15,6 @@ const memesDataArray = [];
         memesDataArray.push(newMemeObj);
     }
 
-    //creates new HTML element for the new meme
-    // function createNewMeme(newMemeObj){
-    //     const newMemeDiv = document.createElement('div');
-    //     newMemeDiv.classList.add('meme-content');
-    //     newMemeDiv.innerHTML = `<img src="${newMemeObj.url}" alt="${newMemeObj.alt}" class="meme-img"> <h3 class="top-text">${newMemeObj.topText}</h3> <h3 class="bottom-text">${newMemeObj.bottomText}</h3>`;
-    //     return newMemeDiv;
-    // }
-
-
     //rewrite of og createNewMeme(newMemeObj) func to better format text over image on meme
     function createNewMeme(newMemeObj){
         const newMemeDiv = document.createElement('div');
@@ -56,6 +47,9 @@ const memesDataArray = [];
                     <h3 class="bottom-text ${bottomSizeClass}">
                         ${newMemeObj.bottomText}
                     </h3>
+                </div>
+                <div class="overlay">
+                    <span class="overlay-x">X</span>
                 </div>
             </div>`;
         return newMemeDiv;
