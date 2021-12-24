@@ -102,6 +102,9 @@ const memesDataArray = [];
         addNewMemeDataToArray(newMemeObj);
 
         renderMemes(memesDataArray);
+
+        //reset inputs
+        document.querySelector('form').reset();
     });
 
 
